@@ -16,6 +16,7 @@ plugins {
 
 sonar {
   properties {
+    property "sonar.host.url", "http://localhost:9000"
     property "sonar.projectKey", "kendra-mvl_zuul_c3b8d0cb-2fd3-468a-a3cd-652dedcb7719"
     property "sonar.projectName", "zuul"
   }
